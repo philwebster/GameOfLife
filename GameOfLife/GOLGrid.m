@@ -100,7 +100,8 @@
                 c.alive = FALSE;
             }
             if (c.alive == TRUE && (neighbors == 2 || neighbors == 3)) {
-                c.alive = TRUE;
+                // Do nothing, c lives
+                // c.alive = TRUE;
             }
             if (c.alive == TRUE && neighbors > 3) {
                 c.alive = FALSE;

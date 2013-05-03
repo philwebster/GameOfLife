@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2450B77C17322B10004A2133 /* GOL.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 2450B77B17322B10004A2133 /* GOL.iconset */; };
+		2450B77E173232CE004A2133 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2450B77D173232CE004A2133 /* WebKit.framework */; };
+		2450B78117323B15004A2133 /* wwdcWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450B78017323B15004A2133 /* wwdcWindowController.m */; };
+		2450B78317324BC0004A2133 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2450B78217324BC0004A2133 /* Quartz.framework */; };
+		2495D01F1732538700FCF173 /* projects.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2495D01C1732538700FCF173 /* projects.pdf */; };
+		2495D0201732538700FCF173 /* GOL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2495D01D1732538700FCF173 /* GOL.pdf */; };
+		2495D0211732538700FCF173 /* about.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2495D01E1732538700FCF173 /* about.pdf */; };
 		D314A37F172EAC5A007F3E6B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D314A37E172EAC5A007F3E6B /* Cocoa.framework */; };
 		D314A389172EAC5A007F3E6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D314A387172EAC5A007F3E6B /* InfoPlist.strings */; };
 		D314A38B172EAC5A007F3E6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D314A38A172EAC5A007F3E6B /* main.m */; };
 		D314A38F172EAC5A007F3E6B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D314A38D172EAC5A007F3E6B /* Credits.rtf */; };
 		D314A392172EAC5A007F3E6B /* GOLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D314A391172EAC5A007F3E6B /* GOLAppDelegate.m */; };
 		D314A395172EAC5B007F3E6B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D314A393172EAC5B007F3E6B /* MainMenu.xib */; };
+		D314A39D172EACBC007F3E6B /* GOLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D314A39C172EACBC007F3E6B /* GOLCell.m */; };
+		D314A3A0172EDD78007F3E6B /* GOLGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = D314A39F172EDD78007F3E6B /* GOLGrid.m */; };
+		D314A3A3172EE566007F3E6B /* GOLGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = D314A3A2172EE566007F3E6B /* GOLGridView.m */; };
+		D314A3A6172EE825007F3E6B /* GOLWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D314A3A5172EE824007F3E6B /* GOLWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2450B77B17322B10004A2133 /* GOL.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = GOL.iconset; path = GameOfLife/GOL.iconset; sourceTree = "<group>"; };
+		2450B77D173232CE004A2133 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2450B77F17323B15004A2133 /* wwdcWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wwdcWindowController.h; sourceTree = "<group>"; };
+		2450B78017323B15004A2133 /* wwdcWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wwdcWindowController.m; sourceTree = "<group>"; };
+		2450B78217324BC0004A2133 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		2495D01C1732538700FCF173 /* projects.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = projects.pdf; sourceTree = "<group>"; };
+		2495D01D1732538700FCF173 /* GOL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GOL.pdf; sourceTree = "<group>"; };
+		2495D01E1732538700FCF173 /* about.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = about.pdf; sourceTree = "<group>"; };
 		D314A37B172EAC5A007F3E6B /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D314A37E172EAC5A007F3E6B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D314A381172EAC5A007F3E6B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +48,14 @@
 		D314A390172EAC5A007F3E6B /* GOLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOLAppDelegate.h; sourceTree = "<group>"; };
 		D314A391172EAC5A007F3E6B /* GOLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOLAppDelegate.m; sourceTree = "<group>"; };
 		D314A394172EAC5B007F3E6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D314A39B172EACBC007F3E6B /* GOLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLCell.h; sourceTree = "<group>"; };
+		D314A39C172EACBC007F3E6B /* GOLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLCell.m; sourceTree = "<group>"; };
+		D314A39E172EDD78007F3E6B /* GOLGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLGrid.h; sourceTree = "<group>"; };
+		D314A39F172EDD78007F3E6B /* GOLGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLGrid.m; sourceTree = "<group>"; };
+		D314A3A1172EE566007F3E6B /* GOLGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLGridView.h; sourceTree = "<group>"; };
+		D314A3A2172EE566007F3E6B /* GOLGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLGridView.m; sourceTree = "<group>"; };
+		D314A3A4172EE824007F3E6B /* GOLWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLWindowController.h; sourceTree = "<group>"; };
+		D314A3A5172EE824007F3E6B /* GOLWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2450B78317324BC0004A2133 /* Quartz.framework in Frameworks */,
+				2450B77E173232CE004A2133 /* WebKit.framework in Frameworks */,
 				D314A37F172EAC5A007F3E6B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,9 +72,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2450B78617324EB7004A2133 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2450B77B17322B10004A2133 /* GOL.iconset */,
+				2495D01C1732538700FCF173 /* projects.pdf */,
+				2495D01D1732538700FCF173 /* GOL.pdf */,
+				2495D01E1732538700FCF173 /* about.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		D314A372172EAC5A007F3E6B = {
 			isa = PBXGroup;
 			children = (
+				2450B78617324EB7004A2133 /* Resources */,
 				D314A384172EAC5A007F3E6B /* GameOfLife */,
 				D314A37D172EAC5A007F3E6B /* Frameworks */,
 				D314A37C172EAC5A007F3E6B /* Products */,
@@ -72,6 +113,8 @@
 		D314A380172EAC5A007F3E6B /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2450B78217324BC0004A2133 /* Quartz.framework */,
+				2450B77D173232CE004A2133 /* WebKit.framework */,
 				D314A381172EAC5A007F3E6B /* AppKit.framework */,
 				D314A382172EAC5A007F3E6B /* CoreData.framework */,
 				D314A383172EAC5A007F3E6B /* Foundation.framework */,
@@ -82,9 +125,19 @@
 		D314A384172EAC5A007F3E6B /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
+				D314A393172EAC5B007F3E6B /* MainMenu.xib */,
+				2450B77F17323B15004A2133 /* wwdcWindowController.h */,
+				2450B78017323B15004A2133 /* wwdcWindowController.m */,
 				D314A390172EAC5A007F3E6B /* GOLAppDelegate.h */,
 				D314A391172EAC5A007F3E6B /* GOLAppDelegate.m */,
-				D314A393172EAC5B007F3E6B /* MainMenu.xib */,
+				D314A3A4172EE824007F3E6B /* GOLWindowController.h */,
+				D314A3A5172EE824007F3E6B /* GOLWindowController.m */,
+				D314A3A1172EE566007F3E6B /* GOLGridView.h */,
+				D314A3A2172EE566007F3E6B /* GOLGridView.m */,
+				D314A39E172EDD78007F3E6B /* GOLGrid.h */,
+				D314A39F172EDD78007F3E6B /* GOLGrid.m */,
+				D314A39B172EACBC007F3E6B /* GOLCell.h */,
+				D314A39C172EACBC007F3E6B /* GOLCell.m */,
 				D314A385172EAC5A007F3E6B /* Supporting Files */,
 			);
 			path = GameOfLife;
@@ -157,6 +210,10 @@
 				D314A389172EAC5A007F3E6B /* InfoPlist.strings in Resources */,
 				D314A38F172EAC5A007F3E6B /* Credits.rtf in Resources */,
 				D314A395172EAC5B007F3E6B /* MainMenu.xib in Resources */,
+				2450B77C17322B10004A2133 /* GOL.iconset in Resources */,
+				2495D01F1732538700FCF173 /* projects.pdf in Resources */,
+				2495D0201732538700FCF173 /* GOL.pdf in Resources */,
+				2495D0211732538700FCF173 /* about.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +226,11 @@
 			files = (
 				D314A38B172EAC5A007F3E6B /* main.m in Sources */,
 				D314A392172EAC5A007F3E6B /* GOLAppDelegate.m in Sources */,
+				D314A39D172EACBC007F3E6B /* GOLCell.m in Sources */,
+				D314A3A0172EDD78007F3E6B /* GOLGrid.m in Sources */,
+				D314A3A3172EE566007F3E6B /* GOLGridView.m in Sources */,
+				D314A3A6172EE825007F3E6B /* GOLWindowController.m in Sources */,
+				2450B78117323B15004A2133 /* wwdcWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +326,7 @@
 		D314A399172EAC5B007F3E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameOfLife/GameOfLife-Prefix.pch";
@@ -276,6 +339,7 @@
 		D314A39A172EAC5B007F3E6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameOfLife/GameOfLife-Prefix.pch";
@@ -304,6 +368,7 @@
 				D314A39A172EAC5B007F3E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

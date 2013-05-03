@@ -18,6 +18,8 @@
     [_window setOpaque:NO];
     NSColor *semiTransparentBlack = [NSColor colorWithDeviceRed:0.108 green:0.107 blue:0.109 alpha:0.87];
     _window.backgroundColor = semiTransparentBlack;
+    [_window orderFrontRegardless];
+    [_wwdcWindow orderFrontRegardless];
 }
 
 @end
