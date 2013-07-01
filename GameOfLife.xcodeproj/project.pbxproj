@@ -10,6 +10,7 @@
 		2450B77C17322B10004A2133 /* GOL.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 2450B77B17322B10004A2133 /* GOL.iconset */; };
 		2450B77E173232CE004A2133 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2450B77D173232CE004A2133 /* WebKit.framework */; };
 		2450B78317324BC0004A2133 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2450B78217324BC0004A2133 /* Quartz.framework */; };
+		247E71EB17824AD0009D084A /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 247E71EA17824AD0009D084A /* screenshot.png */; };
 		D314A37F172EAC5A007F3E6B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D314A37E172EAC5A007F3E6B /* Cocoa.framework */; };
 		D314A389172EAC5A007F3E6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D314A387172EAC5A007F3E6B /* InfoPlist.strings */; };
 		D314A38B172EAC5A007F3E6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D314A38A172EAC5A007F3E6B /* main.m */; };
@@ -26,6 +27,7 @@
 		2450B77B17322B10004A2133 /* GOL.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = GOL.iconset; path = GameOfLife/GOL.iconset; sourceTree = "<group>"; };
 		2450B77D173232CE004A2133 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2450B78217324BC0004A2133 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		247E71EA17824AD0009D084A /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		D314A37B172EAC5A007F3E6B /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D314A37E172EAC5A007F3E6B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D314A381172EAC5A007F3E6B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,7 @@
 		2450B78617324EB7004A2133 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				247E71EA17824AD0009D084A /* screenshot.png */,
 				2450B77B17322B10004A2133 /* GOL.iconset */,
 			);
 			name = Resources;
@@ -197,6 +200,7 @@
 				D314A38F172EAC5A007F3E6B /* Credits.rtf in Resources */,
 				D314A395172EAC5B007F3E6B /* MainMenu.xib in Resources */,
 				2450B77C17322B10004A2133 /* GOL.iconset in Resources */,
+				247E71EB17824AD0009D084A /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
